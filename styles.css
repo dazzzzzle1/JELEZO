@@ -1,0 +1,83 @@
+
+        
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  display: flex; /* Для десктопов */
+}
+
+.menu-list li {
+  margin-right: 20px;
+}
+
+.menu-list a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.menu-list a:hover {
+  background-color: #555;
+}
+
+/* Стили для кнопки-бургера */
+.menu-toggle {
+  display: none; /* Скрываем на десктопах */
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+.image-container-inline {
+  text-align: center; /* Центрируем картинки */
+}
+
+.image-inline {
+  display: inline-block; /* Картинки в строку */
+  width: 30%; /* Примерно 33% */
+  height: 200px;
+  margin: 10px; /* Отступы */
+  object-fit: cover;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Стили для самого футера */
+.site-footer {
+    background-color: #333; /* Темный фон */
+    color: #fff; /* Белый текст */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Контейнер для содержимого футера */
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Блок ссылок/кнопок */
+.foot.footer-links a  {
+    margin-bottom: 20px;
+   color: #ff5733 !important
+}
+body{
+    background-color: rgb(132, 135, 138);
+}
+
+
+
+
+
+
